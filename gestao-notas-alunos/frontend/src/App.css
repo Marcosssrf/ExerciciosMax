@@ -1,0 +1,127 @@
+/* Estilos Globais e Responsivos */
+.app-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.form-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.endereco-info {
+  font-size: 0.9em;
+  color: gray;
+}
+
+.lista-alunos {
+  list-style-type: none;
+  padding: 0;
+}
+
+.aluno-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.aluno-endereco {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.btn-remover-aluno {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para o Componente de Disciplinas */
+.disciplinas-container {
+  margin-top: 15px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.form-add-disciplina {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.disciplina-item {
+  background-color: #fdfdfd;
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.disciplina-item h4 {
+  margin-top: 0;
+}
+
+.disciplina-item ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.disciplina-item li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.btn-editar-nota {
+  background: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 0.8em;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.form-add-nota {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Media Queries para Responsividade */
+@media (min-width: 600px) {
+  .form-container {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .form-container input {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .form-container button {
+    flex: 0 0 auto;
+  }
+
+  .endereco-info {
+    flex-basis: 100%;
+    margin-top: 5px;
+  }
+}

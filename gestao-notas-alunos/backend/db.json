@@ -1,0 +1,36 @@
+{
+  "alunos": [
+    {
+      "id": "1776819699478",
+      "nome": "Marcos",
+      "notas": [
+        10,
+        8,
+        7
+      ],
+      "endereco": "Rua das Paineiras, Cidade Jardim, Uberlândia - MG",
+      "disciplinas": [
+        {
+          "nome": "Química",
+          "notas": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "nome": "Matemática",
+          "notas": []
+        },
+        {
+          "nome": "Ciência",
+          "notas": []
+        },
+        {
+          "nome": "Historia",
+          "notas": []
+        }
+      ]
+    }
+  ]
+}
